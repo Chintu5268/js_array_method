@@ -30,18 +30,18 @@
   // filter()
  
   
-  const company =[
-    {id:1001,name:"sandesh",department:"production",post:"maneeger",start:2015,end:2021},
-    {id:1001,name:"piyush",department:"electrical",post:"employe",start:2018,end:2021},
-    {id:1001,name:"rahul",department:"IT",post:"supervisour",start:2012,end:2021},
-    {id:1001,name:"shivam",department:"production",post:"junior engineer",start:2011,end:2021},
-    {id:1001,name:"akashy",department:"IT",post:"accountant",start:2014,end:2021},
-    {id:1001,name:"subash",department:"production",post:"supervisour",start:2017,end:2021},
-    {id:1001,name:"mehul",department:"electrical",post:"junior engineer",start:2015,end:2021},
-    {id:1001,name:"neha",department:"IT",post:"maneeger",start:2005,end:2021},
-    {id:1001,name:"naina",department:"production",post:"employe",start:2015,end:2021},
-    {id:1001,name:"shraddha",department:"electrical",post:"supervisour",start:2019,end:2021},
-  ]
+  // const company =[
+  //   {id:1001,name:"sandesh",department:"production",post:"maneeger",start:2015,end:2021},
+  //   {id:1001,name:"piyush",department:"electrical",post:"employe",start:2018,end:2021},
+  //   {id:1001,name:"rahul",department:"IT",post:"supervisour",start:2012,end:2021},
+  //   {id:1001,name:"shivam",department:"production",post:"junior engineer",start:2011,end:2021},
+  //   {id:1001,name:"akashy",department:"IT",post:"accountant",start:2014,end:2021},
+  //   {id:1001,name:"subash",department:"production",post:"supervisour",start:2017,end:2021},
+  //   {id:1001,name:"mehul",department:"electrical",post:"junior engineer",start:2015,end:2021},
+  //   {id:1001,name:"neha",department:"IT",post:"maneeger",start:2005,end:2021},
+  //   {id:1001,name:"naina",department:"production",post:"employe",start:2015,end:2021},
+  //   {id:1001,name:"shraddha",department:"electrical",post:"supervisour",start:2019,end:2021},
+  // ]
 
   // company.forEach((person)=>console.log(person.name));
 
@@ -50,5 +50,11 @@
   // newcomapny = company.filter((person)=>(person.end - person.start >=8))
   // console.log(newcomapny);
 
- const  newsuperviousor =company.filter((person)=>person.department==="electrical").map((person)=>person.name)
- console.log(newsuperviousor);
+//  const  newsuperviousor =company.filter((person)=>person.department==="electrical").map((person)=>person.name)
+//  console.log(newsuperviousor);
+// =============================================================================================
+
+var str="this is javascript  ";
+
+var srt2 = str.indexOf("s");
+console.log(srt2);
